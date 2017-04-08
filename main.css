@@ -5,7 +5,7 @@
   width: 100%; }
   .home-wrap header {
     height: 150px;
-    margin: 0 20px;
+    margin: 0 50px;
     background-color: #7B2626;
     display: inline-flex;
     flex-direction: row;
@@ -17,6 +17,9 @@
       height: 100px;
       margin: 0 20px;
       background-color: white; }
+    .home-wrap header h1 {
+      font-style: italic;
+      font-weight: bolder; }
     .home-wrap header .site-nav ul {
       list-style: none;
       position: relative;
@@ -38,13 +41,13 @@ footer {
   flex-direction: row;
   justify-content: center;
   height: 100px;
-  margin: 0 20px;
+  margin: 0 50px;
   align-items: center;
   background-color: #7B2626; }
 
 section.gallery {
   height: auto;
-  margin: 20px;
+  margin: 20px 50px;
   flex-direction: row;
   background-color: #7B2626; }
   section.gallery .imageContainer {
@@ -54,9 +57,8 @@ section.gallery {
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
-    width: 45%;
-    margin: 0 auto;
-    padding: 0 50px; }
+    width: calc(55% - 21px);
+    margin: 0 auto; }
     section.gallery .imageContainer .image1 {
       background-image: url(/assets/img/chosenarmy_web.jpg);
       background-size: cover;
@@ -81,10 +83,18 @@ section.gallery {
       background-image: url(/assets/img/domesticthumb.jpg);
       background-size: cover;
       background-repeat: no-repeat; }
+    section.gallery .imageContainer .image7 {
+      background-image: url(/assets/img/creeper_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .image8 {
+      background-image: url(/assets/img/orc_search_party_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
     section.gallery .imageContainer .imageTemp {
       width: 150px;
       height: 200px;
-      margin: 25px;
+      margin: 20px;
       position: relative;
       overflow: hidden;
       transform: scale(1);

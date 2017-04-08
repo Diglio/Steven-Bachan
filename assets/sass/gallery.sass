@@ -1,6 +1,6 @@
 section.gallery
   height: auto
-  margin: 20px
+  margin: 20px 50px
   flex-direction: row
   background:
     color: #7B2626
@@ -13,9 +13,8 @@ section.gallery
     align-items: center
     flex-wrap: wrap
     height: 100%
-    width: 45%
+    width: calc(55% - 21px)
     margin: 0 auto
-    padding: 0 50px
 
     .image1
       background:
@@ -47,11 +46,21 @@ section.gallery
         image: url(/assets/img/domesticthumb.jpg)
         size: cover
         repeat: no-repeat
+    .image7
+      background:
+        image: url(/assets/img/creeper_web.jpg)
+        size: cover
+        repeat: no-repeat
+    .image8
+      background:
+        image: url(/assets/img/orc_search_party_web.jpg)
+        size: cover
+        repeat: no-repeat
 
     .imageTemp
       width: 150px
       height: 200px
-      margin: 25px
+      margin: 20px
       position: relative
       overflow: hidden
       transform: scale(1.0)

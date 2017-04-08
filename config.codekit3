@@ -44,6 +44,15 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/creeper_web.jpg": {
+		"ft": 16384,
+		"iS": 201736,
+		"oA": 0,
+		"oAP": "\/assets\/img\/creeper_web.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/dalinar_web.jpg": {
 		"ft": 16384,
 		"iS": 252745,
@@ -58,6 +67,15 @@
 		"iS": 1777,
 		"oA": 0,
 		"oAP": "\/assets\/img\/domesticthumb.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/orc_search_party_web.jpg": {
+		"ft": 16384,
+		"iS": 123946,
+		"oA": 0,
+		"oAP": "\/assets\/img\/orc_search_party_web.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
