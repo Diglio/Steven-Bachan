@@ -1,0 +1,79 @@
+section.gallery
+  height: auto
+  margin: 20px
+  flex-direction: row
+  background:
+    color: #7B2626
+
+
+  .imageContainer
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    height: 100%
+    width: 45%
+    margin: 0 auto
+    padding: 0 50px
+
+    .image1
+      background:
+        image: url(/assets/img/chosenarmy_web.jpg)
+        size: cover
+        repeat: no-repeat
+    .image2
+      background:
+        image: url(/assets/img/dalinar_web.jpg)
+        size: cover
+        repeat: no-repeat
+    .image3
+      background:
+        image: url(/assets/img/regalowl_web.jpg)
+        size: cover
+        repeat: no-repeat
+    .image4
+      background:
+        image: url(/assets/img/shatterred_plains_web.jpg)
+        size: cover
+        repeat: no-repeat
+    .image5
+      background:
+        image: url(/assets/img/youngmage_web.jpg)
+        size: cover
+        repeat: no-repeat
+    .image6
+      background:
+        image: url(/assets/img/domesticthumb.jpg)
+        size: cover
+        repeat: no-repeat
+
+    .imageTemp
+      width: 150px
+      height: 200px
+      margin: 25px
+      position: relative
+      overflow: hidden
+      transform: scale(1.0)
+      transition: all 500ms ease-in-out
+      border: 1px solid white
+
+      &:hover
+        transform: scale(1.1)
+        border: inset 0 0 10px black
+        p
+          bottom: 0
+          opacity: 1
+          text-shadow: 5px 5px 5px rgba(255,255,255,0.5)
+
+      p
+        text-align: center
+        position: absolute
+        bottom: -50px
+        left: 0
+        right: 0
+        opacity: 0
+        color: white
+        transition: all 500ms ease-in-out
+
+        &

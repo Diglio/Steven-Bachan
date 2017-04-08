@@ -1,0 +1,120 @@
+.home-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+  .home-wrap header {
+    height: 150px;
+    margin: 0 20px;
+    background-color: #7B2626;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: center; }
+    .home-wrap header .logo {
+      width: 100px;
+      height: 100px;
+      margin: 0 20px;
+      background-color: white; }
+    .home-wrap header .site-nav ul {
+      list-style: none;
+      position: relative;
+      display: inline-block; }
+      .home-wrap header .site-nav ul li {
+        display: inline;
+        font-size: 28px;
+        margin-right: 30px; }
+        .home-wrap header .site-nav ul li:first-child {
+          margin-left: 30px; }
+        .home-wrap header .site-nav ul li:last-child {
+          margin-right: 0; }
+        .home-wrap header .site-nav ul li a {
+          color: #95989A;
+          text-decoration: none; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  margin: 0 20px;
+  align-items: center;
+  background-color: #7B2626; }
+
+section.gallery {
+  height: auto;
+  margin: 20px;
+  flex-direction: row;
+  background-color: #7B2626; }
+  section.gallery .imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 45%;
+    margin: 0 auto;
+    padding: 0 50px; }
+    section.gallery .imageContainer .image1 {
+      background-image: url(/assets/img/chosenarmy_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .image2 {
+      background-image: url(/assets/img/dalinar_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .image3 {
+      background-image: url(/assets/img/regalowl_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .image4 {
+      background-image: url(/assets/img/shatterred_plains_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .image5 {
+      background-image: url(/assets/img/youngmage_web.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .image6 {
+      background-image: url(/assets/img/domesticthumb.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    section.gallery .imageContainer .imageTemp {
+      width: 150px;
+      height: 200px;
+      margin: 25px;
+      position: relative;
+      overflow: hidden;
+      transform: scale(1);
+      transition: all 500ms ease-in-out;
+      border: 1px solid white; }
+      section.gallery .imageContainer .imageTemp:hover {
+        transform: scale(1.1);
+        border: inset 0 0 10px black; }
+        section.gallery .imageContainer .imageTemp:hover p {
+          bottom: 0;
+          opacity: 1;
+          text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5); }
+      section.gallery .imageContainer .imageTemp p {
+        text-align: center;
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        color: white;
+        transition: all 500ms ease-in-out; }
+
+html body {
+  margin: 20px 0 0 0;
+  background-color: #333333; }
+
+.home-wrap {
+  min-height: 100%;
+  margin-bottom: -100px; }
+
+.home-wrap::after {
+  content: "";
+  display: block; }
